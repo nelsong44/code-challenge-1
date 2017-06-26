@@ -33,9 +33,5 @@ function swapColors() {
 
 //delete parent div of the 'delete' button that is clicked
 function deleteParent() {
-  console.log($(this).parent());
-  console.log($(this).children());
-  console.log($(this).siblings());
-  console.log($(this));
   $(this).parent().remove();
 }// end deleteParent
